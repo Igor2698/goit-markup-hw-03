@@ -1,0 +1,220 @@
+:root {
+  --main-color: #2e2f42;
+  --extra-color: #434455;
+}
+
+body {
+  background-color: white;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+ul {
+  list-style: none;
+}
+.link{
+  text-decoration: none;
+}
+/* header */
+
+.header-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.adress{
+  font-style: normal;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.logo-span {
+  color: var(--main-color);
+  font-family: "Raleway", sans-serif;
+}
+/* contacts */
+
+.contact {
+  color: var(--extra-color);
+}
+.contact:hover,
+.contact:focus {
+  color: #404bbf;
+}
+
+/* main */
+
+/* hero */
+
+.hero-title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hero {
+  background-color: var(--main-color);
+}
+
+/* section 2 */
+
+.section-second-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.section-second-text {
+  font-style: normal;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--extra-color);
+}
+
+/* section 3 */
+.section-third-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-color);
+}
+
+/* section 4 */
+
+.section-four-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.section-four {
+  background-color: #f4f4fd;
+}
+.name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-color);
+}
+
+.section-four-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--extra-color);
+}
+.list-section-four{
+  background-color: #FFFFFF;
+}
+/* footer */
+.footer {
+  background: #2e2f42;
+}
+.logo-span-footer {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #F4F4FD;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.button-portfolio{
+  color: #4D5AE5;
+  background: #F4F4FD;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+/* Portfolio */
+/* Стилизация полностью совпадает с Хедером осн. стран. */
+/* section first */
+/* section second */
+.name-section-second-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.text-section-second-portfolio {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--extra-color);
+}
