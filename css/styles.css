@@ -477,9 +477,7 @@ border: 1px solid transparent;
 }
 
 .info-port{
-  padding-left: 16px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
