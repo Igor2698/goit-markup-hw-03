@@ -74,8 +74,7 @@ ul {
 
 .list-item {
   margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 
 .list-item:last-child {
@@ -93,6 +92,9 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: inline-block;
 
   color: var(--main-color);
 }
@@ -314,6 +316,7 @@ ul {
 .logo-footer {
   margin-bottom: 16px;
   display: inline-block;
+  margin-right: 0;
 }
 .footer {
   background: #2e2f42;
@@ -336,6 +339,7 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   color: #f4f4fd;
+  display: inline-block;
 }
 
 .footer-text {
@@ -372,6 +376,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  margin-top: 48px;
   /* margin-top: 48px; */
 
   min-width: 169px;
@@ -392,8 +397,8 @@ ul {
 }
 
 .button-portfolio:hover,
-.button-portfolio:hover {
-  border: 1px solid transparent;
+.button-portfolio:focus {
+border: 1px solid transparent;
 }
 .button:hover,
 .button:focus {
@@ -418,8 +423,8 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
-  padding-left: 8px;
+  margin-bottom: 8px;
+  
 }
 
 .container-portfolio {
@@ -436,7 +441,7 @@ ul {
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
-  gap: 40px;
+  gap: 24px;
 }
 
 .list-portfolio {
@@ -468,7 +473,13 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--extra-color);
-  padding-left: 8px;
+  
+}
 
-  margin-top: 8px;
+.info-port{
+  padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
